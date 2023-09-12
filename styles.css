@@ -1,2 +1,17 @@
 
-/* Your CSS Code here. */
+/* Your CSS Code here. */ 
+.holder {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+            grid-template-rows: repeat(2, 1fr); /* Two equal rows */
+            grid-gap: 5px; /* Gap between grid items */
+            width: 200px; /* Total width of the grid */
+            height: 200px; /* Total height of the grid */
+        }
+
+        /* Styling for grid items (for demonstration purposes) */
+        .item {
+            background-color: lightblue;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
